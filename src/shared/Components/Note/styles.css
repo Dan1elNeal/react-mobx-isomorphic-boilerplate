@@ -1,0 +1,10 @@
+.note {
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition-property: transform;
+  transition: transform .3s;
+}
+
+.note:hover {
+  transform: scale(1.1);
+}
